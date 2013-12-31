@@ -1,4 +1,4 @@
-Web App Skeleton
+Blog Theme
 ===============
 
-It is web app skeleton for me
+It's my blog theme for Postach.io
