@@ -152,7 +152,7 @@ main.post-list {
 		}
 	}
 }
-/*  Main Post List
+/*  Main Post
    ============================== */
 main.post {
 	// min-height: 500px;
@@ -160,12 +160,22 @@ main.post {
 		padding-bottom:45px;
 		header {	
 			padding-top: 45px;
+			position: relative;
 			h3 {
 				margin: 0px;
 				margin-bottom: 20px;
 				font-family: $fontFamily;
 				color: rgb(45, 45, 45);
 				font-size: 28px;
+			}
+			time {
+				position: absolute;
+				top: 48px;
+				left: -285px;
+				font-weight: 700px;
+				color: rgb(45, 45, 45);
+				font-family: $fontFamily;
+				font-size: 20px;
 			}
 		}
 		p {
@@ -203,7 +213,7 @@ footer.footer {
 	padding: 15px 0;
 	border-bottom: 15px solid rgb(182, 185, 175);
 	small {
-		color: rgb(221, 221, 221);
+		color: rgb(168, 180, 186);
 		&.copyright {
 			float: left;
 		}
