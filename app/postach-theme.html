@@ -118,7 +118,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
             <p>I'm Front-End Developer & UX/UI Designer</p>
         </div><!-- /.header-title -->
         <div class="news-container clearfix">
-            <h3><span class="label label-primary">NEW Project</span><span class="title">My composer</span></h3>
+            <h3><span class="label label-primary">NEW Project</span><span class="title">My Composer</span></h3>
             <div class="more-info"><a href="#">more info</a></div>
         </div><!-- /news-container -->
     </div><!-- /.common-container -->
@@ -134,7 +134,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
             <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
             <p>{{ post.content }}</p>
             <div class="continue">
-                <a href="#">CONTINUE→</a>
+                <a href="#">CONTINUE&rarr;</a>
             </div><!-- /.continue -->
         </article>
         {% endfor %}
@@ -171,9 +171,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
         <div class="common-container">
             <header>
                 <h3>{{ post.title }}</h3>
+                <time>{{ post.created_at|format_date }}</time>
             </header>
             {{ post.content }}
-        
     </article>
 </main>
 <div class="common-container">
