@@ -7387,13 +7387,14 @@ main.post-list article .continue a {
   font-size: 16px;
 }
 
-/*  Main Post List
+/*  Main Post
    ============================== */
 main.post article {
   padding-bottom: 45px;
 }
 main.post article header {
   padding-top: 45px;
+  position: relative;
 }
 main.post article header h3 {
   margin: 0px;
@@ -7401,6 +7402,15 @@ main.post article header h3 {
   font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   color: #2d2d2d;
   font-size: 28px;
+}
+main.post article header time {
+  position: absolute;
+  top: 48px;
+  left: -285px;
+  font-weight: 700px;
+  color: #2d2d2d;
+  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 main.post article p {
   font-size: 17px;
@@ -7426,7 +7436,7 @@ footer.footer {
   border-bottom: 15px solid #b6b9af;
 }
 footer.footer small {
-  color: #dddddd;
+  color: #a8b4ba;
 }
 footer.footer small.copyright {
   float: left;
