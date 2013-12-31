@@ -1,0 +1,217 @@
+// ==============================
+// Name: _layout.scss
+// Last Update: Sat 29 Dec 2013
+// ==============================
+
+.common-container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* ==============================
+	Header 
+   ============================== */
+   
+/*  Header Common Style 
+   ============================== */
+ header.header {
+ 	padding-top: 10px;
+	h1 {
+		padding: 10px 0px;
+		text-transform: uppercase;
+		a {
+			letter-spacing: -0.04em;
+			display: block;
+			text-decoration: none;
+			word-break: break-word;
+			font-family: $fontFamily;
+		}
+	}
+	p {
+		font-size: 22px;
+		font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+	}	
+}
+   
+/*  Header Post List 
+   ============================== */
+header.post-list {
+	height: 420px;
+	background: url('https://dl.dropboxusercontent.com/u/74344418/cover.jpg') no-repeat center;
+	padding-bottom: 5px;
+	border-bottom: 10px solid rgb(241, 241, 241);
+	position:relative;
+	.header-title {
+		h1 {
+			margin-top: 130px;
+			text-align: center;
+			a {
+				font-size: 50px;
+				color: #FFF;
+			}
+		}
+		p {
+			color: #FFF;
+			text-align: center;
+		}	
+	}
+	.news-container {
+		border-top: 1px solid rgb(131, 131, 131);
+		padding: 23px 0px 5px;
+		position:relative;
+		bottom: -80px;
+		h3 {
+			float: left;
+			margin: 0;
+			font-size:18px;
+			span.label {
+				position: relative;
+				top: 0px;
+			}
+			span.title {
+				position: relative;
+				left: 10px;
+				color: #fff;
+			}
+		}
+		.more-info {
+			float: right;
+			a {
+				display: block;
+			}
+		}
+	}
+}
+/*  Header Post 
+   ============================== */
+header.post {
+	.header-title {
+		margin-top:110px;
+		padding-bottom:10px;
+		border-bottom: 1px solid rgb(242, 242, 242);
+		h1 {
+			float: left;
+			margin: 0;
+			a {
+				font-size:20px;
+				color: rgb(45, 45, 45);
+			}
+		}
+		p {
+			float: right;
+			font-size: 13px;
+			margin-top: 13px;
+		}
+	}	
+}
+
+
+
+
+
+/* ==============================
+	Main
+   ============================== */
+   
+/*  Main Post List
+   ============================== */
+main.post-list {
+	min-height: 500px;
+	article {
+		padding: 45px 0px;
+		border-bottom: 1px solid rgb(242, 242, 242);
+		h3 {
+			margin: 0px;
+			margin-bottom: 20px;
+			a {
+				font-family: $fontFamily;
+				color: rgb(45, 45, 45);
+				font-size: 28px;
+				-webkit-transition: color 1s ease;
+				   -moz-transition: color 1s ease;
+				    -ms-transition: color 1s ease;
+				     -o-transition: color 1s ease;
+				        transition: color 1s ease;
+				&:hover {
+					text-decoration: none;
+					color: rgb(182, 185, 175);
+				}
+			}
+		}
+		p {
+			font-size: 17px;
+			line-height: 27px;
+			color: #797979;
+			margin-bottom: 20px;
+			padding: 10px 0;
+		}
+		.continue {
+			a {
+				font-size :16px;
+			}
+		}
+	}
+}
+/*  Main Post List
+   ============================== */
+main.post {
+	// min-height: 500px;
+	article {
+		padding-bottom:45px;
+		header {	
+			padding-top: 45px;
+			h3 {
+				margin: 0px;
+				margin-bottom: 20px;
+				font-family: $fontFamily;
+				color: rgb(45, 45, 45);
+				font-size: 28px;
+			}
+		}
+		p {
+			font-size: 17px;
+			line-height: 27px;
+			color: #797979;
+			margin-bottom: 20px;
+		}
+		footer {
+			margin-top: 45px;
+			padding: 20px 0;
+			border-top: 1px solid rgb(242, 242, 242);
+			h4 {
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+/* ==============================
+	Footer
+   ============================== */
+   
+/*  Footer Common Style 
+   ============================== */
+footer.footer {
+	margin-top: 45px !important;
+	border-top: 1px solid rgb(242, 242, 242);
+	padding: 15px 0;
+	border-bottom: 15px solid rgb(182, 185, 175);
+	small {
+		color: rgb(221, 221, 221);
+		&.copyright {
+			float: left;
+		}
+		&.powerd {
+			float: right;
+		}
+	}
+}
+
+
+
