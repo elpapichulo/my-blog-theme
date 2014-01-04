@@ -6,3 +6,9 @@
 @import "core/bootstrap";
 @import "core/variable";
 @import "core/layout";
+
+
+// !important
+// This style for Responsive Web Desgin 
+@import "core/media_queries";
+// Please Do not import any files. If you do it, it will fuck it up.

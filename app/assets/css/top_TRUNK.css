@@ -7285,6 +7285,9 @@ header.post-list {
   padding-bottom: 5px;
   border-bottom: 10px solid #f1f1f1;
   position: relative;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 header.post-list .header-title h1 {
   margin-top: 130px;
@@ -7412,6 +7415,10 @@ main.post article header time {
   font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   font-size: 20px;
 }
+main.post article img {
+  width: 100%;
+  height: auto;
+}
 main.post article p {
   font-size: 17px;
   line-height: 27px;
@@ -7444,3 +7451,12 @@ footer.footer small.copyright {
 footer.footer small.powerd {
   float: right;
 }
+
+/* smaller than 900 */
+/* smaller than 768 */
+/* tablet landscape mode */
+/* smaller than 480 */
+/* =============================================================
+    Note: 
+    Please do not any style. If you do it, it will fuck it up.
+   ============================================================ */
