@@ -6,32 +6,177 @@
 
 
 
-/* smaller than 900 */
-@media screen and (max-width: 900px) {
-	
+/* smaller than 1300 */
+@media screen and (max-width: 1300px) {
+	/*  Main Post
+   		============================== */
+	/*  Main Post
+   		============================== */
+	main.post {
+		article {
+			header {	
+				time {
+					left: -170px;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+
+/* smaller than 1000 */
+@media screen and (max-width: 1000px) {
+	/*  Main Post
+   		============================== */
+	/*  Main Post
+   		============================== */
+	main.post {
+		article {
+			header {	
+				time {
+					top: 15px;
+					left: 0px;
+					font-size: 10px;
+				}
+			}
+		}
+	}
 }
 
 
+/* smaller than 600 */
+@media screen and (max-width: 640px) {
+	.common-container {
+		width: auto;
+		margin: 0;
+	}
 
-/* smaller than 768 */
-@media screen and (max-width: 768px) {
+	/*  Header Post List 
+   	 	============================== */ 
+	.header.post-list {
+		height: 300px;
+		.header-title {
+			h1 {
+				margin-top: 60px;
+				a {
+					font-size: 40px;
+				}
+			}
+			p {
+				font-size: 15px;
+			}	
+		}
+		.news-container {
+			min-width: 90%;
+			width: 90%;
+			left: 50%;
+			margin-left: -45%;
+			padding: 15px 0px;
+			h3 {
+				font-size: 15px;
+				span.title {
+					position: relative;
+					left: 10px;
+					color: #fff;
+				}
+			}
+			.more-info {
+				a {
+					font-size: 15px;
+				}
+			}
+		}
+	}
 
+	/*  Header Post 
+   		============================== */
+	header.post {
+		.header-title {
+			width: auto;
+			padding-bottom:10px;
+			margin: 10px 20px;
+			border-bottom: 1px solid rgb(242, 242, 242);
+			h1 {
+				float: left;
+				margin: 0;
+				a {
+					font-size:20px;
+					color: rgb(45, 45, 45);
+				}
+			}
+			p {
+				float: right;
+				font-size: 13px;
+				margin-top: 13px;
+			}
+		}	
+	}
+
+
+
+
+
+
+	/*  Main Post List
+   		============================== */
+	main.post-list {
+			article {
+				padding: 45px 20px;
+		}
+	}
+
+	/*  Main Post
+   		============================== */
+	main.post {
+		article {
+			padding: 0px 20px 45px;
+			header {	
+				padding-top: 45px;
+				position: relative;
+				h3 {
+					font-size: 25px;
+				}
+			}
+		}
+	}
+
+
+
+
+	/*  Footer Common Style 
+   		============================== */
+	footer.footer {
+		padding: 15px 20px;
+		small {
+			&.copyright {
+				font-size: 10px;
+			}
+			&.powerd {
+				font-size: 10px;
+			}
+		}
+	}
 }
 
-
-
-
-/* tablet landscape mode */
-@media screen and ( orientation: landscape) and (max-width: 768px){
-
-}
 
 
 
 /* smaller than 480 */
 @media screen and (max-width: 480px) {
-	
+	/*  Header Post 
+   		============================== */
+	header.post {
+		.header-title {
+			p {
+				float: left;
+
+			}
+		}	
+	}
 }
+
+
+
 
 
 /* =============================================================

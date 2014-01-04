@@ -7281,7 +7281,7 @@ header.header p {
    ============================== */
 header.post-list {
   height: 420px;
-  background: url("https://dl.dropboxusercontent.com/u/74344418/cover.jpg") no-repeat center;
+  background: url("https://dl.dropboxusercontent.com/u/74344418/Sota'sBlog/cover4.jpg") no-repeat center;
   padding-bottom: 5px;
   border-bottom: 10px solid #f1f1f1;
   position: relative;
@@ -7303,9 +7303,10 @@ header.post-list .header-title p {
 }
 header.post-list .news-container {
   border-top: 1px solid #838383;
-  padding: 23px 0px 5px;
-  position: relative;
-  bottom: -80px;
+  padding: 23px 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 600px;
 }
 header.post-list .news-container h3 {
   float: left;
@@ -7452,10 +7453,130 @@ footer.footer small.powerd {
   float: right;
 }
 
-/* smaller than 900 */
-/* smaller than 768 */
-/* tablet landscape mode */
+/* smaller than 1300 */
+@media screen and (max-width: 1300px) {
+  	/*  Main Post
+     		============================== */
+  	/*  Main Post
+     		============================== */
+  main.post article header time {
+    left: -170px;
+    font-size: 15px;
+  }
+}
+/* smaller than 1000 */
+@media screen and (max-width: 1000px) {
+  	/*  Main Post
+     		============================== */
+  	/*  Main Post
+     		============================== */
+  main.post article header time {
+    top: 15px;
+    left: 0px;
+    font-size: 10px;
+  }
+}
+/* smaller than 600 */
+@media screen and (max-width: 640px) {
+  .common-container {
+    width: auto;
+    margin: 0;
+  }
+
+  	/*  Header Post List 
+     	 	============================== */
+  .header.post-list {
+    height: 300px;
+  }
+  .header.post-list .header-title h1 {
+    margin-top: 60px;
+  }
+  .header.post-list .header-title h1 a {
+    font-size: 40px;
+  }
+  .header.post-list .header-title p {
+    font-size: 15px;
+  }
+  .header.post-list .news-container {
+    min-width: 90%;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    padding: 15px 0px;
+  }
+  .header.post-list .news-container h3 {
+    font-size: 15px;
+  }
+  .header.post-list .news-container h3 span.title {
+    position: relative;
+    left: 10px;
+    color: #fff;
+  }
+  .header.post-list .news-container .more-info a {
+    font-size: 15px;
+  }
+
+  	/*  Header Post 
+     		============================== */
+  header.post .header-title {
+    width: auto;
+    padding-bottom: 10px;
+    margin: 10px 20px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  header.post .header-title h1 {
+    float: left;
+    margin: 0;
+  }
+  header.post .header-title h1 a {
+    font-size: 20px;
+    color: #2d2d2d;
+  }
+  header.post .header-title p {
+    float: right;
+    font-size: 13px;
+    margin-top: 13px;
+  }
+
+  	/*  Main Post List
+     		============================== */
+  main.post-list article {
+    padding: 45px 20px;
+  }
+
+  	/*  Main Post
+     		============================== */
+  main.post article {
+    padding: 0px 20px 45px;
+  }
+  main.post article header {
+    padding-top: 45px;
+    position: relative;
+  }
+  main.post article header h3 {
+    font-size: 25px;
+  }
+
+  	/*  Footer Common Style 
+     		============================== */
+  footer.footer {
+    padding: 15px 20px;
+  }
+  footer.footer small.copyright {
+    font-size: 10px;
+  }
+  footer.footer small.powerd {
+    font-size: 10px;
+  }
+}
 /* smaller than 480 */
+@media screen and (max-width: 480px) {
+  	/*  Header Post 
+     		============================== */
+  header.post .header-title p {
+    float: left;
+  }
+}
 /* =============================================================
     Note: 
     Please do not any style. If you do it, it will fuck it up.
