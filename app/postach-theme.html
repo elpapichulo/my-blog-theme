@@ -134,7 +134,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
             <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
             <p>{{ post.content }}</p>
             <div class="continue">
-                <a href="#">CONTINUE&rarr;</a>
+                <a href="{{ post.permalink }}">CONTINUE&rarr;</a>
             </div><!-- /.continue -->
         </article>
         {% endfor %}
